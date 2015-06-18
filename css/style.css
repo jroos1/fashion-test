@@ -46,7 +46,7 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 16px;
+     font-size: 18px;
      line-height: 1.4;
      font-family: Lato, Arial, sans-serif;
      margin:0px;
@@ -71,8 +71,12 @@ nav a {
 	text-decoration: none;
 	border-bottom: 1px solid #EEE;
 	padding-bottom: 5px;
-	margin-right: 10px;
-	font-size: 20px;
+	margin-right: 20px;
+	font-size: 22px;
+}
+
+h1 {
+	margin-bottom: 5px;
 }
 
 h1 a {
@@ -85,6 +89,8 @@ h1 a {
 h2 {
 	font-weight: normal;
 	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 15px;
 }
 
 h2 a {
@@ -94,6 +100,9 @@ h2 a {
 
 h3 {
 	color: #CCC;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 0px;
 }
 
 h4 {
@@ -103,23 +112,26 @@ h4 {
 
 h4 a {
 	color: #D00;
+	text-decoration: none;
 }
 
 article {
 	border-bottom: 1px solid gray;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 span {
 	font-size: 80px;
 	float: left;
 	color: #CCC;
-	line-height: 1;
+	line-height: .8;
 	padding-right: 10px;
-	padding-top: 0px;
+	padding-bottom: 5px;
 }
 
 footer {
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-bottom: 30px;
 }
 
